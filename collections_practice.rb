@@ -41,7 +41,11 @@ end
 # Method that adds "s" to each word in the array except for the second element
 def add_s(str_array)
   str_array.each_with_index do |string, index|
-    
+    if index != 1 
+      string << "s"
+    end
+  end
+    str_array
 end
 
 
