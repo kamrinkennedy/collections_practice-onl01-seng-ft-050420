@@ -22,7 +22,13 @@ def swap_elements(array)
 end
 
 # Method that reverses an array of integers
-
 def reverse_array(array)
   array.reverse
+end
+
+# Method that takes an array of strings
+# The third character of each string is replaces with "$"
+def kesha_maker(str_array)
+  str_array.each {|string| string[2] = "$"}
+  str_array
 end
