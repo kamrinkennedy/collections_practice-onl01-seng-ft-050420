@@ -5,5 +5,5 @@ end
 
 # Method that sorts an array of integers in descending order
 def sort_array_desc(int_array)
-  int_array.sort {|a, b| b <=> a}
+  int_array.sort.reverse
 end
