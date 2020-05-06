@@ -38,6 +38,11 @@ def find_a(str_array)
   str_array.select {|string| string.start_with?("a")}
 end
 
+# Method that adds "s" to each word in the array except for the second element
+def add_s(str_array)
+  str_array.each_with_index do |string, index|
+    
+end
 
 
 
