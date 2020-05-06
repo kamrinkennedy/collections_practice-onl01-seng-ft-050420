@@ -32,3 +32,5 @@ def kesha_maker(str_array)
   str_array.each {|string| string[2] = "$"}
   str_array
 end
+
+#
