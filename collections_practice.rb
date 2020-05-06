@@ -12,3 +12,11 @@ end
 def sort_array_char_count(str_array)
   str_array.sort {|a, b| a.length <=> b.length}
 end
+
+# Method that swaps the second and third elements of an array
+def swap_elements(array)
+  new_element = array[1]
+  array[1] = array[2]
+  array[2] = new_element
+  array
+end
