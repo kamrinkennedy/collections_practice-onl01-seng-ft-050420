@@ -33,4 +33,21 @@ def kesha_maker(str_array)
   str_array
 end
 
-#
+# Method that returns all strings in a passed in array that start with "a"
+def find_a(str_array)
+  str_array.select {|string| string.start_with?("a")}
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
