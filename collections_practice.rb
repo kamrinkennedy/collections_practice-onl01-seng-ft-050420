@@ -38,7 +38,10 @@ def find_a(str_array)
   str_array.select {|string| string.start_with?("a")}
 end
 
-# Method that adds all integers in an array and returns the sum
+# Method that adds all integers in an array and returns the sum 
+def sum_array(int_array)
+  int_array.reduce(:+)
+end
 
 # Method that adds "s" to each word in the array except for the second element
 def add_s(str_array)
