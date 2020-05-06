@@ -40,7 +40,7 @@ end
 
 # Method that adds all integers in an array and returns the sum 
 def sum_array(int_array)
-  int_array.reduce(:+)
+  int_array.sum
 end
 
 # Method that adds "s" to each word in the array except for the second element
